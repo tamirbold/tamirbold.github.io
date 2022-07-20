@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="gradeStyle.css">
+    <title>Retieve grade</title>
+  </head>
+  <body>
+    <h1 class="title">Retieve your grade</h1>
+
+    <div class="box">
+      <form action="">
+        <br />
+        <div class="row">
+          <label for="name">Name:</label>
+          <input type="text" size="16" minlength="3" maxlength="16"/>
+        </div>
+        <br />
+        <div class="row">
+          <label for="studentID">Student ID: </label>
+          <input type="text" name="studentID" id="studentID" size="6" placeholder="6 digit"/>
+        </div>
+        <br />
+        <div class="row">
+          <label for="assignment">Assignment:</label>
+          <select name="assignment" id="assignment">
+            <option value="assignment">Assignment1</option>
+            <option value="assignment">Assignment2</option>
+            <option value="assignment">Assignment3</option>
+          </select>
+        </div>
+        <br />
+        <div class="row">
+          <label for="entry">Entry selection: </label>
+          <input type="radio" name="entry" id="entry" />Feb2022 
+          <input type="radio" name="entry" id="entry" />May2022 
+          <input type="radio" name="entry" id="entry" />Aug2022 
+        </div>
+        <br />
+        <div>
+          <input type="checkbox" name="agreement" id="agreement" />I confirm
+        </div>
+        <br />
+        <div>
+          <input type="button" value="Get grade" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

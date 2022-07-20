@@ -1,0 +1,31 @@
+.title {
+    text-align: center;
+}
+
+.box {
+
+    width: 500px;
+    border: 1px solid black;
+    padding: 10px 50px;
+    margin: auto;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+input,
+select {
+    margin: 20px 0;
+}
+
+label {
+    width: 200px;
+}
+
+body {
+    padding: 50px;
+}
