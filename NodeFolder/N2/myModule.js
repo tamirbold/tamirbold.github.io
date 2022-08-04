@@ -1,4 +1,4 @@
-exports.myDate = function(){
+myDate = function(){
     return Date();
 };
-exports.myDate = this.myDate;
+exports.myDate = myDate;

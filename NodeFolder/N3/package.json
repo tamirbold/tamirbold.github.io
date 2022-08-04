@@ -1,8 +1,8 @@
 {
-  "name": "nodefolder",
+  "name": "n3",
   "version": "1.0.0",
   "description": "",
-  "main": "HelloWorld.js",
+  "main": "demo_fileserver.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
